@@ -5,4 +5,10 @@ def home(request):
         'name': 'Daniel Sánchez', 
     })
 
+def recipes(request, id):
+    return render(request, 'recipes/pages/home.html', context={
+        'name': 'Daniel Sánchez', 
+    })
 
+
+ 
